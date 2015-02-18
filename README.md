@@ -1,0 +1,2 @@
+# hobnobenricher
+Hobnob is a location base app for professionals. You can choose a specific desired industries, and then as soon as there is any match in your desired industry and close to your location, Hobnob will notify you. You can use Hobnob in airports, hotels, events, trainings, coffee shops, big or small companies and everywhere that you can have a smart phone as well as internet. Hobnob will help your business take-off. Install Hobnob on http://www.hobnobworld.com
