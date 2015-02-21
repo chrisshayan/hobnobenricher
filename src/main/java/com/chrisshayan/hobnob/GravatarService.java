@@ -18,6 +18,7 @@ public class GravatarService {
 
     /**
      * MD5 of email
+     *
      * @param email to convert
      * @return MD5
      */
@@ -37,7 +38,6 @@ public class GravatarService {
     }
 
     /**
-     *
      * @param email to find the user on engravatar
      * @return instance of the user
      */
@@ -47,7 +47,7 @@ public class GravatarService {
 
         try {
             final List<GravatarModel> gravatarModels = restTemplate.getForObject(restUrl, GravatarResponse.class).getGravatarModels();
-            if(CollectionUtils.isEmpty(gravatarModels))
+            if (CollectionUtils.isEmpty(gravatarModels))
                 return null;
             return gravatarModels.get(0);
         } catch (RestClientException e) {

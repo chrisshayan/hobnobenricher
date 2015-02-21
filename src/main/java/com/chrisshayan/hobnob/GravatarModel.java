@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GravatarModel {
-    private String profileUrl,thumbnailUrl;
+    private String profileUrl, thumbnailUrl;
 
     public String getProfileUrl() {
         return profileUrl;
